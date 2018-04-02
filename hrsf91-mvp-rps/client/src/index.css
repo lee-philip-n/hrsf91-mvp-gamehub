@@ -1,0 +1,39 @@
+.joined-container {
+  height: 100px;
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  border: solid black;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  border: solid black;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#rock, #paper, #scissors {
+  height: 25px;
+}
